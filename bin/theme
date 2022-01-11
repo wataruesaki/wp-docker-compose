@@ -17,6 +17,7 @@ mkdir $THEME_NAME
   echo "</head>"
   echo "<body>"
   echo "  <h1>Hello ${THEME_NAME}!</h1>"
+  echo "  <?php wp_footer(); ?>"
   echo "</body>"
   echo "</html>"
 } >> $THEME_NAME/index.php
