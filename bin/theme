@@ -1,1 +1,22 @@
 #!/bin/bash
+eval "$(cat .env <(echo) <(declare -x))"
+mkdir $THEME_NAME
+{
+  echo "/*"
+  echo Theme Name: $THEME_NAME
+  echo "*/"
+} >> $THEME_NAME/style.css
+{
+  echo "<!DOCTYPE html>"
+  echo "<html <?php language_attributes(); ?>>"
+  echo "<head>"
+  echo "  <meta charset=\"UTF-8\">"
+  echo "  <meta name=\"viewport\" content=\"initial-scale=1.0, width=device-width\">"
+  echo "  <title><?php wp_title('|', true, 'right') . bloginfo('name') ?></title>"
+  echo "  <?php wp_head(); ?>"
+  echo "</head>"
+  echo "<body>"
+  echo "  <h1>Hello ${THEME_NAME}!</h1>"
+  echo "</body>"
+  echo "</html>"
+} >> $THEME_NAME/index.php
