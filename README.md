@@ -32,11 +32,21 @@ THEME_NAME=theme
 bin/theme
 ```
 
-### 4. Start docker
+### 4. Run docker compose
 
 ```bash
 docker-compose up
 ```
+
+### 5. Set up WordPress
+
+#### Open `http://localhost:${WP_PORT}`
+
+#### Install WordPress
+
+#### Log in to WordPress
+
+#### Activate your theme
 
 ### phpMyAdmin
 
@@ -49,3 +59,5 @@ You can log in to phpMyAdmin with the following information.
 #### Password
 
 `secret`
+
+`wordpress` database is for WordPress.
