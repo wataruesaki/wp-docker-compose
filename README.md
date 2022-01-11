@@ -43,7 +43,9 @@ docker-compose up
 You can log in to phpMyAdmin with the following information.
 
 #### User
+
 `root`
 
 #### Password
+
 `secret`
