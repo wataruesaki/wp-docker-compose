@@ -60,4 +60,4 @@ You can log in to phpMyAdmin with the following information.
 
 `secret`
 
-`wordpress` database is for WordPress.
+`wordpress`
