@@ -52,6 +52,8 @@ docker-compose up
 
 You can log in to phpMyAdmin with the following information.
 
+`wordpress` database is for WordPress.
+
 #### User
 
 `root`
@@ -59,5 +61,3 @@ You can log in to phpMyAdmin with the following information.
 #### Password
 
 `secret`
-
-`wordpress`
