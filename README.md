@@ -50,9 +50,9 @@ docker-compose up
 
 ### phpMyAdmin
 
-You can log in to phpMyAdmin with the following information.
-
 `wordpress` database is for WordPress.
+
+You can log in to phpMyAdmin with the following information.
 
 #### User
 
